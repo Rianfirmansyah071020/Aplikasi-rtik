@@ -1,0 +1,282 @@
+.sidebar-new {
+  -webkit-animation: animasisidebar 5s infinite;
+          animation: animasisidebar 5s infinite;
+}
+
+@-webkit-keyframes animasisidebar {
+  0% {
+    background: linear-gradient(rgb(38, 62, 128), rgb(79, 79, 80));
+  }
+  100% {
+    background: linear-gradient(rgb(79, 79, 80), rgb(38, 62, 128));
+  }
+}
+
+@keyframes animasisidebar {
+  0% {
+    background: linear-gradient(rgb(38, 62, 128), rgb(79, 79, 80));
+  }
+  100% {
+    background: linear-gradient(rgb(79, 79, 80), rgb(38, 62, 128));
+  }
+}
+.card-sub-title {
+  padding: 10px;
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+.col-aksi {
+  padding: 20px;
+}
+
+.btn-tambah {
+  background-color: rgb(38, 62, 128);
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-tambah:hover {
+  background-color: white;
+  color: rgb(38, 62, 128);
+}
+
+.card-tambah {
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.img-detail {
+  border-radius: 10px;
+  transition: 1s;
+  position: relative;
+}
+
+.img-detail:hover {
+  transform: scale(0.9);
+}
+
+.img-detail-update {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
+  transition: 1s;
+}
+
+.img-detail-update:hover {
+  transform: scale(1.2);
+}
+
+.card-login {
+  border-radius: 20px;
+  -webkit-animation: animasiLogin 3s infinite;
+          animation: animasiLogin 3s infinite;
+}
+
+@-webkit-keyframes animasiLogin {
+  0% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(177, 206, 16);
+  }
+  20% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(13, 175, 99);
+  }
+  40% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(155, 155, 153);
+  }
+  60% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(132, 27, 180);
+  }
+  80% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(216, 33, 33);
+  }
+  100% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(16, 206, 57);
+  }
+}
+
+@keyframes animasiLogin {
+  0% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(177, 206, 16);
+  }
+  20% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(13, 175, 99);
+  }
+  40% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(155, 155, 153);
+  }
+  60% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(132, 27, 180);
+  }
+  80% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(216, 33, 33);
+  }
+  100% {
+    box-shadow: 0.5px 0.5px 10px 1px rgb(16, 206, 57);
+  }
+}
+.navbar-user {
+  background: rgb(38, 62, 128);
+  color: rgb(192, 189, 185);
+}
+
+.artikel-judul {
+  font-weight: bold;
+  -webkit-animation: artikel_judul 2s ease infinite;
+          animation: artikel_judul 2s ease infinite;
+}
+
+@-webkit-keyframes artikel_judul {
+  0% {
+    color: rgb(38, 38, 133);
+  }
+  20% {
+    color: rgb(196, 27, 27);
+  }
+  40% {
+    color: rgb(219, 219, 35);
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes artikel_judul {
+  0% {
+    color: rgb(38, 38, 133);
+  }
+  20% {
+    color: rgb(196, 27, 27);
+  }
+  40% {
+    color: rgb(219, 219, 35);
+  }
+  100% {
+    color: black;
+  }
+}
+.judul-artikel {
+  font-weight: bold;
+  color: rgb(38, 62, 128);
+  text-align: center;
+}
+
+.img-penulis-artikel {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.img-penulis-artikel-show {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.img-dokumentasi {
+  transition: 1.5s;
+}
+
+.img-dokumentasi:hover {
+  transform: scale(1.2);
+  z-index: 9999;
+}
+
+.card-slide {
+  height: 70vh;
+}
+
+.img-slide {
+  height: 85vh;
+}
+
+.footer {
+  background: linear-gradient(rgb(231, 230, 230), rgb(216, 216, 216));
+  margin-bottom: auto;
+}
+
+.profil-anggota {
+  display: block;
+  text-align: center;
+}
+
+.card-profil-anggota {
+  transition: 0.5s;
+}
+
+.card-profil-anggota:hover {
+  box-shadow: 2px 2px 10px black;
+  transform: scale(1.1);
+}
+
+.img-card {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+}
+
+.card-img-sub {
+  width: 120px;
+}
+
+.img-profil-artikel {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.img-profil-artikel-view {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card-info {
+  -webkit-animation: animasi_card_info 2s ease infinite;
+          animation: animasi_card_info 2s ease infinite;
+}
+
+@-webkit-keyframes animasi_card_info {
+  0% {
+    color: rgb(17, 170, 170);
+  }
+  50% {
+    color: rgb(207, 18, 18);
+  }
+  100% {
+    color: rgb(202, 174, 13);
+  }
+}
+
+@keyframes animasi_card_info {
+  0% {
+    color: rgb(17, 170, 170);
+  }
+  50% {
+    color: rgb(207, 18, 18);
+  }
+  100% {
+    color: rgb(202, 174, 13);
+  }
+}
+.card-dashboard {
+  transition: 0.6s;
+}
+
+.card-dashboard:hover {
+  background: rgb(38, 62, 128);
+  color: rgb(212, 211, 211);
+  transform: scale(1.1);
+  z-index: 99999;
+}
+
+body {
+  color: rgb(7, 7, 7);
+}
+
+.tableCetak thead, .tableCetak tr, .tableCetak th {
+  border: 1px solid black;
+}/*# sourceMappingURL=main.css.map */
